@@ -1,7 +1,7 @@
 import gmplot
 import pandas as pd
 from pandas.io.json import json_normalize
-
+#!pip install gmplot // for jupyter notebooks
 
 def json_to_df(filepath, full=False):
     """
