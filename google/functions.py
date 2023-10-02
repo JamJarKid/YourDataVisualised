@@ -61,7 +61,7 @@ def line(df, filename):
     min_lat, max_lat = min(df['latitude']), max(df['latitude'])
     min_lon, max_lon = min(df['longitude']), max(df['longitude'])
 
-    mymap = gmplot.GoogleMapPlotter((max_lat + min_lat) / 2, (max_lon + min_lon) / 2, 7, apikey='AIzaSyAA7rltyt7Ow_ubEtdt3kRimmnM8BUGlzg')
+    mymap = gmplot.GoogleMapPlotter((max_lat + min_lat) / 2, (max_lon + min_lon) / 2, 7, apikey=$APIKEY)
 
     mymap.plot(df['latitude'], df['longitude'], 'blue', edge_width=1)
 
