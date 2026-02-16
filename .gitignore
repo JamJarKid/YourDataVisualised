@@ -1,1 +1,28 @@
-**data/
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# data files
+**/data/
